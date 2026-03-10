@@ -7,7 +7,6 @@
   --dark-gray-color: #1f2937;
   --gray-text-color: #6b7280;
 }
-/* ===== Reset ===== */
 
 * {
   margin: 0;
@@ -31,7 +30,6 @@ img {
   border-radius: 12px;
 }
 
-/* ===== Container ===== */
 
 .container {
   max-width: 1100px;
@@ -39,7 +37,6 @@ img {
   padding: 0 20px;
 }
 
-/* ===== Header ===== */
 
 .header {
   background: white;
@@ -62,8 +59,6 @@ img {
   color: #84cc16;
 }
 
-/* ===== Navigation ===== */
-
 .header__nav-list {
   display: flex;
   gap: 30px;
@@ -80,8 +75,6 @@ img {
   color: #84cc16;
 }
 
-/* underline animation */
-
 .nav__list-item::after {
   content: "";
   position: absolute;
@@ -97,8 +90,6 @@ img {
 .nav__list-item:hover::after {
   width: 100%;
 }
-
-/* ===== Hero ===== */
 
 .hero {
   padding: 80px 0;
@@ -124,8 +115,6 @@ img {
   line-height: 1.6;
   margin-bottom: 30px;
 }
-
-/* ===== Button ===== */
 
 .hero__btn {
   background: #84cc16;
